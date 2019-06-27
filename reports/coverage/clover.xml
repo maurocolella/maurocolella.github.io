@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1561651901416" clover="3.2.0">
-  <project timestamp="1561651901416" name="All files">
-    <metrics statements="919" coveredstatements="15" conditionals="381" coveredconditionals="5" methods="262" coveredmethods="6" elements="1562" coveredelements="26" complexity="0" loc="919" ncloc="919" packages="34" files="59" classes="59"/>
+<coverage generated="1561664512128" clover="3.2.0">
+  <project timestamp="1561664512128" name="All files">
+    <metrics statements="928" coveredstatements="15" conditionals="387" coveredconditionals="5" methods="262" coveredmethods="6" elements="1577" coveredelements="26" complexity="0" loc="928" ncloc="928" packages="34" files="59" classes="59"/>
     <package name="src">
       <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="App.jsx" path="/home/circleci/repo/src/App.jsx">
@@ -66,9 +66,9 @@
       </file>
     </package>
     <package name="src.components.GLChart">
-      <metrics statements="162" coveredstatements="0" conditionals="31" coveredconditionals="0" methods="23" coveredmethods="0"/>
+      <metrics statements="171" coveredstatements="0" conditionals="37" coveredconditionals="0" methods="23" coveredmethods="0"/>
       <file name="GL.js" path="/home/circleci/repo/src/components/GLChart/GL.js">
-        <metrics statements="135" coveredstatements="0" conditionals="19" coveredconditionals="0" methods="14" coveredmethods="0"/>
+        <metrics statements="144" coveredstatements="0" conditionals="25" coveredconditionals="0" methods="15" coveredmethods="0"/>
         <line num="25" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
@@ -187,26 +187,35 @@
         <line num="244" count="0" type="stmt"/>
         <line num="248" count="0" type="stmt"/>
         <line num="249" count="0" type="stmt"/>
-        <line num="252" count="0" type="stmt"/>
-        <line num="253" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="250" count="0" type="stmt"/>
+        <line num="251" count="0" type="stmt"/>
         <line num="254" count="0" type="stmt"/>
-        <line num="256" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="257" count="0" type="stmt"/>
-        <line num="260" count="0" type="stmt"/>
-        <line num="261" count="0" type="stmt"/>
+        <line num="255" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="256" count="0" type="stmt"/>
+        <line num="258" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="259" count="0" type="stmt"/>
         <line num="262" count="0" type="stmt"/>
         <line num="263" count="0" type="stmt"/>
-        <line num="267" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="268" count="0" type="stmt"/>
+        <line num="264" count="0" type="stmt"/>
+        <line num="265" count="0" type="stmt"/>
         <line num="269" count="0" type="stmt"/>
+        <line num="270" count="0" type="stmt"/>
         <line num="271" count="0" type="stmt"/>
-        <line num="273" count="0" type="stmt"/>
-        <line num="274" count="0" type="stmt"/>
-        <line num="275" count="0" type="stmt"/>
-        <line num="276" count="0" type="stmt"/>
+        <line num="273" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="274" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="275" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="279" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="285" count="0" type="stmt"/>
+        <line num="286" count="0" type="stmt"/>
+        <line num="287" count="0" type="stmt"/>
+        <line num="289" count="0" type="stmt"/>
+        <line num="290" count="0" type="stmt"/>
+        <line num="291" count="0" type="stmt"/>
+        <line num="292" count="0" type="stmt"/>
+        <line num="293" count="0" type="stmt"/>
       </file>
       <file name="GLChart.jsx" path="/home/circleci/repo/src/components/GLChart/GLChart.jsx">
-        <metrics statements="27" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <metrics statements="27" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="8" coveredmethods="0"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -216,24 +225,24 @@
         <line num="28" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="52" count="0" type="stmt"/>
         <line num="57" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
         <line num="61" count="0" type="stmt"/>
-        <line num="63" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="66" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="64" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="65" count="0" type="stmt"/>
         <line num="67" count="0" type="stmt"/>
-        <line num="73" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
         <line num="74" count="0" type="stmt"/>
-        <line num="76" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="77" count="0" type="stmt"/>
-        <line num="80" count="0" type="stmt"/>
-        <line num="88" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Header">
