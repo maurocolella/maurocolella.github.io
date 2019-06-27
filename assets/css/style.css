@@ -1,0 +1,53 @@
+body,
+html {
+  color:          #333;
+  font-family:      "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height:           100%;
+}
+
+a {
+  color:          #333;
+}
+
+.app {
+  display:          flex;
+  flex-direction:   column;
+  height:           100%;
+}
+
+.app__header {
+  padding:          10px 20px 0 20px;
+}
+
+.nav {
+  display:          flex;
+  list-style-type:  none;
+  margin:           0;
+  padding:          0;
+}
+
+.nav__tab {
+  border:           1px solid #CCC;
+  border-bottom:    0;
+  border-radius:    3px 3px 0 0;
+}
+
+.nav__tab:not(:first-child) {
+  border-left:      0;
+}
+
+.nav__link {
+  display:          block;
+  padding:          10px;
+  text-decoration:  none;
+}
+
+.app__body {
+  display:          flex;
+  flex:             1;
+}
+
+.display {
+  border:           1px solid #CCC;
+  flex:             1;
+}
