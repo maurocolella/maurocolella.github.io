@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1561732721487" clover="3.2.0">
-  <project timestamp="1561732721487" name="All files">
-    <metrics statements="902" coveredstatements="15" conditionals="383" coveredconditionals="5" methods="251" coveredmethods="6" elements="1536" coveredelements="26" complexity="0" loc="902" ncloc="902" packages="33" files="57" classes="57"/>
+<coverage generated="1561733085235" clover="3.2.0">
+  <project timestamp="1561733085235" name="All files">
+    <metrics statements="929" coveredstatements="15" conditionals="387" coveredconditionals="5" methods="263" coveredmethods="6" elements="1579" coveredelements="26" complexity="0" loc="929" ncloc="929" packages="34" files="59" classes="59"/>
     <package name="src">
       <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="App.jsx" path="/home/circleci/repo/src/App.jsx">
@@ -434,6 +434,18 @@
         <line num="47" count="0" type="stmt"/>
       </file>
     </package>
+    <package name="src.components.StaticResumeEntry">
+      <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="StaticResumeEntry.jsx" path="/home/circleci/repo/src/components/StaticResumeEntry/StaticResumeEntry.jsx">
+        <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+    </package>
     <package name="src.components.TOCButton">
       <metrics statements="17" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="TOCButton.jsx" path="/home/circleci/repo/src/components/TOCButton/TOCButton.jsx">
@@ -689,7 +701,31 @@
       </file>
     </package>
     <package name="src.containers.ResumePage">
-      <metrics statements="37" coveredstatements="0" conditionals="17" coveredconditionals="0" methods="11" coveredmethods="0"/>
+      <metrics statements="58" coveredstatements="0" conditionals="19" coveredconditionals="0" methods="21" coveredmethods="0"/>
+      <file name="ResumePage.jsx" path="/home/circleci/repo/src/containers/ResumePage/ResumePage.jsx">
+        <metrics statements="21" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+      </file>
       <file name="actions.js" path="/home/circleci/repo/src/containers/ResumePage/actions.js">
         <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="4" count="0" type="stmt"/>
