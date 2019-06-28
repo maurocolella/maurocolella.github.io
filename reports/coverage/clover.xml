@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1561721495613" clover="3.2.0">
-  <project timestamp="1561721495613" name="All files">
-    <metrics statements="928" coveredstatements="15" conditionals="387" coveredconditionals="5" methods="262" coveredmethods="6" elements="1577" coveredelements="26" complexity="0" loc="928" ncloc="928" packages="34" files="59" classes="59"/>
+<coverage generated="1561722051422" clover="3.2.0">
+  <project timestamp="1561722051422" name="All files">
+    <metrics statements="929" coveredstatements="15" conditionals="387" coveredconditionals="5" methods="263" coveredmethods="6" elements="1579" coveredelements="26" complexity="0" loc="929" ncloc="929" packages="34" files="59" classes="59"/>
     <package name="src">
       <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="App.jsx" path="/home/circleci/repo/src/App.jsx">
@@ -595,9 +595,10 @@
       </file>
     </package>
     <package name="src.containers.Dashboard">
-      <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <metrics statements="12" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
       <file name="Dashboard.jsx" path="/home/circleci/repo/src/containers/Dashboard/Dashboard.jsx">
-        <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <metrics statements="12" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="20" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
