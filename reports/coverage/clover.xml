@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1561696418042" clover="3.2.0">
-  <project timestamp="1561696418042" name="All files">
-    <metrics statements="928" coveredstatements="15" conditionals="387" coveredconditionals="5" methods="262" coveredmethods="6" elements="1577" coveredelements="26" complexity="0" loc="928" ncloc="928" packages="34" files="59" classes="59"/>
+<coverage generated="1561700488559" clover="3.2.0">
+  <project timestamp="1561700488559" name="All files">
+    <metrics statements="927" coveredstatements="15" conditionals="387" coveredconditionals="5" methods="262" coveredmethods="6" elements="1576" coveredelements="26" complexity="0" loc="927" ncloc="927" packages="34" files="59" classes="59"/>
     <package name="src">
       <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="App.jsx" path="/home/circleci/repo/src/App.jsx">
@@ -595,20 +595,19 @@
       </file>
     </package>
     <package name="src.containers.Dashboard">
-      <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="Dashboard.jsx" path="/home/circleci/repo/src/containers/Dashboard/Dashboard.jsx">
-        <metrics statements="11" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="21" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="66" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.containers.NotFoundPage">
