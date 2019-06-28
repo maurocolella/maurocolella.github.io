@@ -42,6 +42,11 @@ a {
   text-decoration:  none;
 }
 
+.nav__link:focus,
+.nav__link:active {
+  font-weight:      bold;
+}
+
 .app__body {
   display:          flex;
   flex:             1;
