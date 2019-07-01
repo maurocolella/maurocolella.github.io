@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1561858423319" clover="3.2.0">
-  <project timestamp="1561858423319" name="All files">
-    <metrics statements="930" coveredstatements="15" conditionals="385" coveredconditionals="5" methods="263" coveredmethods="6" elements="1578" coveredelements="26" complexity="0" loc="930" ncloc="930" packages="34" files="59" classes="59"/>
+<coverage generated="1561940142613" clover="3.2.0">
+  <project timestamp="1561940142613" name="All files">
+    <metrics statements="931" coveredstatements="15" conditionals="385" coveredconditionals="5" methods="263" coveredmethods="6" elements="1579" coveredelements="26" complexity="0" loc="931" ncloc="931" packages="34" files="59" classes="59"/>
     <package name="src">
       <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="App.jsx" path="/home/circleci/repo/src/App.jsx">
@@ -343,9 +343,9 @@
       </file>
     </package>
     <package name="src.components.NavItem">
-      <metrics statements="14" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <metrics statements="15" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="NavItem.jsx" path="/home/circleci/repo/src/components/NavItem/NavItem.jsx">
-        <metrics statements="14" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <metrics statements="15" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="6" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
@@ -357,9 +357,10 @@
         <line num="47" count="0" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
         <line num="51" count="0" type="stmt"/>
-        <line num="65" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
         <line num="66" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Navbar">
@@ -377,29 +378,29 @@
         <line num="54" count="0" type="stmt"/>
         <line num="55" count="0" type="stmt"/>
         <line num="56" count="0" type="stmt"/>
-        <line num="57" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
         <line num="65" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
         <line num="69" count="0" type="stmt"/>
         <line num="70" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
-        <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="75" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="76" count="0" type="stmt"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="82" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="83" count="0" type="stmt"/>
-        <line num="89" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="76" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="83" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="84" count="0" type="stmt"/>
         <line num="90" count="0" type="stmt"/>
         <line num="91" count="0" type="stmt"/>
-        <line num="96" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
         <line num="97" count="0" type="stmt"/>
         <line num="98" count="0" type="stmt"/>
-        <line num="105" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
         <line num="106" count="0" type="stmt"/>
-        <line num="117" count="0" type="stmt"/>
-        <line num="119" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.ProgressIndicator">
