@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1585309803980" clover="3.2.0">
-  <project timestamp="1585309803981" name="All files">
-    <metrics statements="544" coveredstatements="15" conditionals="169" coveredconditionals="5" methods="140" coveredmethods="6" elements="853" coveredelements="26" complexity="0" loc="544" ncloc="544" packages="27" files="39" classes="39"/>
+<coverage generated="1585311270095" clover="3.2.0">
+  <project timestamp="1585311270095" name="All files">
+    <metrics statements="560" coveredstatements="16" conditionals="187" coveredconditionals="6" methods="141" coveredmethods="6" elements="888" coveredelements="28" complexity="0" loc="560" ncloc="560" packages="27" files="39" classes="39"/>
     <package name="src">
-      <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <metrics statements="17" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <file name="App.jsx" path="/home/circleci/repo/src/App.jsx">
-        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="22" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
       </file>
       <file name="index.client.jsx" path="/home/circleci/repo/src/index.client.jsx">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -37,32 +40,39 @@
       </file>
     </package>
     <package name="src.components.CookieNotice">
-      <metrics statements="10" coveredstatements="6" conditionals="10" coveredconditionals="4" methods="4" coveredmethods="2"/>
+      <metrics statements="14" coveredstatements="7" conditionals="12" coveredconditionals="5" methods="5" coveredmethods="2"/>
       <file name="CookieNotice.jsx" path="/home/circleci/repo/src/components/CookieNotice/CookieNotice.jsx">
-        <metrics statements="10" coveredstatements="6" conditionals="10" coveredconditionals="4" methods="4" coveredmethods="2"/>
+        <metrics statements="14" coveredstatements="7" conditionals="12" coveredconditionals="5" methods="5" coveredmethods="2"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="23" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="33" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="43" count="1" type="cond" truecount="2" falsecount="0"/>
       </file>
     </package>
     <package name="src.components.Footer">
-      <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="10" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="Footer.jsx" path="/home/circleci/repo/src/components/Footer/Footer.jsx">
-        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <metrics statements="10" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="17" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.GLChart">
@@ -246,16 +256,19 @@
       </file>
     </package>
     <package name="src.components.Header">
-      <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="10" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="Header.jsx" path="/home/circleci/repo/src/components/Header/Header.jsx">
-        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <metrics statements="10" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="10" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="23" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Icons.RulerIcon">
@@ -441,9 +454,9 @@
       </file>
     </package>
     <package name="src.components.TOCButton">
-      <metrics statements="17" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <metrics statements="20" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="TOCButton.jsx" path="/home/circleci/repo/src/components/TOCButton/TOCButton.jsx">
-        <metrics statements="17" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <metrics statements="20" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="11" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
@@ -458,9 +471,12 @@
         <line num="42" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="61" count="0" type="stmt"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.containers.ContentPage">
